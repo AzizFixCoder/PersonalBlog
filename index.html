@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog - Aziz's Creative Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">AzizBlog</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to My Blog</h1>
+                <p class="hero-subtitle">Exploring ideas, sharing stories, and inspiring minds</p>
+                <a href="blog.html" class="cta-button">Explore Posts</a>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">✨</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts Section -->
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-image">📚</div>
+                    <h3>Getting Started with Web Development</h3>
+                    <p class="post-date">June 5, 2024</p>
+                    <p class="post-excerpt">A comprehensive guide to understanding the fundamentals of web development and how to start your coding journey...</p>
+                    <a href="blog.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">💡</div>
+                    <h3>10 Tips for Better Code Quality</h3>
+                    <p class="post-date">June 3, 2024</p>
+                    <p class="post-excerpt">Learn practical techniques to improve your code quality, maintainability, and performance in your projects...</p>
+                    <a href="blog.html" class="read-more">Read More →</a>
+                </article>
+
+                <article class="post-card">
+                    <div class="post-image">🚀</div>
+                    <h3>The Future of Technology</h3>
+                    <p class="post-date">May 28, 2024</p>
+                    <p class="post-excerpt">Exploring emerging trends in AI, machine learning, and how they'll shape the future of innovation...</p>
+                    <a href="blog.html" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to get the latest articles delivered to your inbox</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="submit-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Aziz's Blog. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="https://github.com/AzizFixCoder" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
